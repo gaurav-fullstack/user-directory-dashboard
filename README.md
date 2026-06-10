@@ -1,15 +1,15 @@
 # User Directory Dashboard
 A responsive user directory dashboard built using vanilla JavaScript that consumes a REST API and dynamically displays user information.
 
-#Live:
+# Live:
 https://gaurav-fullstack.github.io/user-directory-dashboard/
 
-#Screeshots
+# Screeshots
 
 <img width="1296" height="842" alt="image" src="https://github.com/user-attachments/assets/51062bc2-8be1-4af8-ab22-079907270b01" />
 
 
-#Features
+# Features
 
 ✓ REST API Integration
 
@@ -33,7 +33,7 @@ https://gaurav-fullstack.github.io/user-directory-dashboard/
 
 ✓ GitHub Pages
 
-#Concepts Learned
+# Concepts Learned
 
 ✓ DOM Manipulation
 
@@ -49,7 +49,7 @@ https://gaurav-fullstack.github.io/user-directory-dashboard/
 
 ✓ Error Handling
 
-#Future Improvements
+# Future Improvements
 
 Loading State
 
@@ -61,7 +61,8 @@ Dark Mode
 
 React Migration
 
-#Installation
+# Installation
+
 Clone repository
 
 Open index.html
