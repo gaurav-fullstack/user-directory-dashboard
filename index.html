@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Directory Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>User Directory Dashboard</h1>
+        <div class="user-container" id="userContainer">
+            <!-- User cards will be populated here -->
+            <div class="user-card">
+                <h2>John Doe</h2>
+                <p>Email: john.doe@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>City: Doe City</p>
+                <p>Company: Example Inc.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            getUserData();
+        });
+    </script>
+
+</body>
+
+</html>

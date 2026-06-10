@@ -1,0 +1,42 @@
+  * {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+  }
+
+  h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333333;
+  }
+
+  h2 {
+      color: #3400ff;
+      margin-bottom: 10px;
+  }
+
+  #userContainer {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: auto;
+
+  }
+
+  .user-card {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: auto;
+      flex: 1 1 300px;
+      max-width: fit-content;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
