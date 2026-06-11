@@ -1,70 +1,114 @@
 # User Directory Dashboard
-A responsive user directory dashboard built using vanilla JavaScript that consumes a REST API and dynamically displays user information.
 
-# Live:
+A responsive User Directory Dashboard built using Vanilla JavaScript that fetches user information from a REST API and dynamically displays it as user cards.
+
+## Preview
+
+![Dashboard](assets/screenshot.png)
+
+## Live Demo
+
 https://gaurav-fullstack.github.io/user-directory-dashboard/
 
-# Screeshots
+---
 
-<img width="1296" height="842" alt="image" src="https://github.com/user-attachments/assets/51062bc2-8be1-4af8-ab22-079907270b01" />
+## Features
 
+* Fetch user data from REST API
+* Dynamic user card generation
+* Display:
 
-# Features
+  * Name
+  * Email
+  * Phone
+  * City
+  * Company
+* Async/Await
+* Error handling
+* Responsive card layout
+* GitHub Pages deployment
 
-✓ REST API Integration
+---
 
-✓ Dynamic User Cards
+## Technologies Used
 
-✓ Async/Await
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* REST API
+* Git
+* GitHub Pages
 
-✓ Error Handling
+---
 
-✓ Responsive Layout
+## API Used
 
-#Technologies
+https://jsonplaceholder.typicode.com/users
 
-✓ HTML5
+---
 
-✓ CSS3
+## Concepts Practiced
 
-✓ JavaScript
+* DOM Manipulation
+* Async/Await
+* fetch()
+* REST API
+* JSON
+* Arrays and Objects
+* Template Literals
+* Error Handling
+* Dynamic Rendering
 
-✓ REST API
+---
 
-✓ GitHub Pages
+## Project Structure
 
-# Concepts Learned
+```
+user-directory-dashboard/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-✓ DOM Manipulation
+---
 
-✓ fetch()
+## Future Improvements
 
-✓ Promises
+* Loading indicator
+* Search users
+* Filter by city
+* Sort users
+* Dark mode
+* Better responsive design
+* React version
 
-✓ JSON
+---
 
-✓ Arrays
+## Getting Started
 
-✓ Objects
+Clone the repository:
 
-✓ Error Handling
+```
+git clone https://github.com/gaurav-fullstack/user-directory-dashboard.git
+```
 
-# Future Improvements
+Open `index.html` in your browser.
 
-Loading State
+---
 
-Search
+## Author
 
-Filter
+Gaurav Sharma
 
-Dark Mode
+GitHub:
+https://github.com/gaurav-fullstack
 
-React Migration
+---
 
-# Installation
+## Project Status
 
-Clone repository
+Version 1.0.0
 
-Open index.html
-
-Done
+Production Deployed ✅
