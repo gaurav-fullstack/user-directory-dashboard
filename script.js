@@ -1,15 +1,18 @@
-async function getUserData(){
+const loading = document.getElementById('loading');
+const errorBox = document.getElementById('error');
 
+async function getUserData(){
+    const userContainer = document.getElementById('userContainer');
     try{
         const response = await fetch("https://jsonplaceholder.typicode.com/users");
         
         if(!response.ok){
-            throw new Error ("Network response was not ok");
+            throw new Error ("Network response was not ok");;
         }
 
         const users = await response.json();
 
-        const userContainer = document.getElementById('userContainer');
+       
         userContainer.innerHTML='';
         users.forEach(user=>{
             const userCard = `
@@ -23,9 +26,15 @@ async function getUserData(){
 
             userContainer.innerHTML += userCard;
         })
+        userContainer.style.display = 'flex';
+        loading.style.display = 'none';
 
     }
     catch(error){
         console.error(error.message);
+        userContainer.style.display = 'none';
+        loading.style.display = 'none'
+        errorBox.textContent = error.message;
+        errorBox.style.display = 'block';
     }
 }

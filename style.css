@@ -23,7 +23,7 @@
   }
 
   #userContainer {
-      display: flex;
+      display: none;
       gap: 20px;
       align-items: center;
       flex-wrap: wrap;
@@ -38,4 +38,13 @@
       width: auto;
       flex: 1 1 300px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  #error {
+      color: red;
+      text-align: center;
+      margin-top: 20px;
+      display: none;
+      font-size: 28px;
+      font-weight: bold;
   }
