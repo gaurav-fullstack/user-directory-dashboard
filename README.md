@@ -1,10 +1,10 @@
-# User Directory Dashboard
-
-A responsive User Directory Dashboard built using Vanilla JavaScript that fetches user information from a REST API and dynamically displays it as user cards.
-
 ## Preview
 
 ![Dashboard](assets/screenshot.png)
+
+# User Directory Dashboard
+
+A responsive User Directory Dashboard built using Vanilla JavaScript that fetches user information from a REST API and dynamically displays it as user cards.
 
 ## Live Demo
 
