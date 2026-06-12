@@ -11,18 +11,16 @@
 <body>
     <div class="container">
         <h1>User Directory Dashboard</h1>
-        <p id="loading" style="margin:10px auto; text-align: center; font-size: 24px;">Loading Users..........</p>
+        <div>
+            <input class="search-input" type="text" id="searchInput" placeholder="Search users by name..."
+                onkeyup="filterUsers()">
+        </div>
+
+        <p id="loading">Loading Users..........</p>
         <div class="user-container" id="userContainer">
             <!-- User cards will be populated here -->
-            <div class="user-card">
-                <h2>John Doe</h2>
-                <p>Email: john.doe@example.com</p>
-                <p>Phone: (123) 456-7890</p>
-                <p>City: Doe City</p>
-                <p>Company: Example Inc.</p>
-            </div>
         </div>
-        <p id="error" style="margin:10px auto; color: red;"></p>
+        <p id="error"></p>
 
     </div>
     <script src="script.js"></script>
