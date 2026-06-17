@@ -75,3 +75,27 @@
       border-color: #3400ff;
       box-shadow: 0 0 5px rgba(52, 0, 255, 0.5);
   }
+
+  /* No Users Found */
+  .no-users-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      border: 1px solid #ddd;
+  }
+
+  #noUsers {
+      text-align: center;
+      margin: 20px auto;
+      display: none;
+      max-width: 600px;
+
+  }
+
+  .noUserText {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: 500;
+      color: #333969;
+  }

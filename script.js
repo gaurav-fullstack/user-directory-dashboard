@@ -30,6 +30,13 @@ async function getUserData(){
 }
 
 function renderUsers(users){
+
+    if(users.length === 0){
+        document.getElementById('noUsers').style.display = 'block';
+        userContainer.style.display = 'none';
+        return;
+    }
+    document.getElementById('noUsers').style.display = 'none';
     userContainer.innerHTML='';
     users.forEach(user=>{
             const userCard = `
@@ -52,6 +59,4 @@ function filterUsers(){
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
     const filteredUsers = allUsers.filter((user)=> user.name.toLowerCase().includes(searchInput));
     renderUsers(filteredUsers);
-
-
 }
